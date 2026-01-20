@@ -1,0 +1,35 @@
+
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>TimeLedger | TimeNation</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <img src="../assets/emblem_timenation.png" class="emblem" />
+    <h1>Международный Банк Смыслов — TimeLedger</h1>
+  </header>
+
+  <section id="timeline-section">
+    <h2>Выберите свою минуту на Таймлайне</h2>
+    <input type="number" id="minuteInput" min="0" max="5256000000" placeholder="Введите минуту (0–5256000000)" />
+    <form id="bookingForm">
+      <input type="text" id="name" placeholder="ФИО" required />
+      <input type="email" id="email" placeholder="E-mail" required />
+      <input type="tel" id="phone" placeholder="Телефон" required />
+      <button type="submit">Забронировать минуту</button>
+    </form>
+    <div id="message"></div>
+  </section>
+
+  <footer>
+    <img src="../assets/flag_timenation.png" class="flag" />
+    <p>© TimeNation 2025 | International Bank of Meanings</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

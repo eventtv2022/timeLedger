@@ -1,0 +1,39 @@
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: radial-gradient(circle at center, #08121f, #020610);
+  color: #e0e0e0;
+  text-align: center;
+  margin: 0;
+  padding: 0;
+}
+header, footer {
+  padding: 20px;
+}
+h1, h2 {
+  color: #00c8ff;
+}
+.emblem {
+  height: 80px;
+}
+.flag {
+  height: 40px;
+}
+#timeline-section {
+  margin-top: 40px;
+}
+input, button {
+  margin: 8px;
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+button {
+  background-color: #00c8ff;
+  color: #fff;
+  cursor: pointer;
+  transition: 0.3s;
+}
+button:hover {
+  background-color: #009bd1;
+}
